@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+  ::selection {
+    @apply bg-indigo-500/40;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-600 rounded-full;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-slate-900/60 backdrop-blur-xl border border-slate-800/60;
+  }
+  .input-base {
+    @apply w-full bg-slate-800/60 border border-slate-700 rounded-xl px-4 py-3
+           text-slate-100 placeholder-slate-500 outline-none
+           focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20
+           transition-all duration-200;
+  }
+  .btn-primary {
+    @apply bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700
+           text-white font-semibold rounded-xl px-6 py-3
+           transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed
+           focus:outline-none focus:ring-2 focus:ring-indigo-500/50;
+  }
+  .btn-ghost {
+    @apply text-slate-400 hover:text-slate-200 hover:bg-slate-800
+           rounded-lg px-3 py-1.5 text-sm transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-slate-500/30;
+  }
+}

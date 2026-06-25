@@ -1,0 +1,9 @@
+# Go build artifacts
+urlshortener
+*.exe
+*.test
+*.out
+bin/
+
+# Env (root .gitignore also catches this, belt-and-suspenders)
+.env

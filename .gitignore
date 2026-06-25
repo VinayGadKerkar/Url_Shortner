@@ -1,0 +1,31 @@
+# ── Environment variables (never commit secrets) ──────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Go ────────────────────────────────────────────────────────────────────────
+backend/urlshortener
+backend/*.exe
+backend/*.test
+backend/*.out
+backend/bin/
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+# Keep docker-compose.yml but ignore override files
+docker-compose.override.yml

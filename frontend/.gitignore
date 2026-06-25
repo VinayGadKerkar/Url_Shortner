@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.cache/
+*.tsbuildinfo
+
+# Env
+.env
+.env.local
