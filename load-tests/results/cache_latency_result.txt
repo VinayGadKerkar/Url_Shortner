@@ -1,0 +1,13 @@
+
+╔══════════════════════════════════════════════════════╗
+║         CACHE LATENCY COMPARISON RESULTS             ║
+╠══════════════════════════════════════════════════════╣
+║  Cold (DB lookup):   avg=1.48ms   p95=1.96ms   ║
+║  Hot  (Redis cache): avg=1.38ms    p95=1.90ms    ║
+║                                                      ║
+║  Latency improvement: 6.7% faster with cache          ║
+╚══════════════════════════════════════════════════════╝
+
+RESUME BULLET:
+  Reduced redirect latency from ~1.48ms to ~1.38ms (6.7% improvement)
+  via Redis cache-aside pattern (k6 load test, p95: 1.96ms → 1.90ms)

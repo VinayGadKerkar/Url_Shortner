@@ -54,7 +54,7 @@ export default function App() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
-            <span className="font-semibold text-slate-100 tracking-tight">Snip</span>
+            <span className="font-semibold text-slate-100 tracking-tight">GoURL</span>
             <span className="text-slate-700 text-sm hidden sm:inline">URL Shortener</span>
           </div>
           <HealthBadge />

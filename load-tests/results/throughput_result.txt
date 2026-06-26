@@ -1,0 +1,14 @@
+
+╔══════════════════════════════════════════════════════╗
+║              THROUGHPUT TEST RESULTS                 ║
+╠══════════════════════════════════════════════════════╣
+║  Peak RPS:      4672 req/s                             ║
+║  Total reqs:    373743                               ║
+║  Avg latency:   1.85ms                              ║
+║  p95 latency:   3.72ms                              ║
+║  p99 latency:   undefinedms                              ║
+╚══════════════════════════════════════════════════════╝
+
+RESUME BULLET:
+  Sustained 4672 requests/sec (280320 req/min) at p95=3.72ms
+  under 100-VU concurrent load (k6 load test)

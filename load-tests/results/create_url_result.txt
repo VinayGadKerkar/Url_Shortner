@@ -1,0 +1,14 @@
+
+╔══════════════════════════════════════════════════════╗
+║          URL CREATION THROUGHPUT RESULTS             ║
+╠══════════════════════════════════════════════════════╣
+║  Successful creates: 79                          ║
+║  Avg latency:        4.67ms                         ║
+║  p95 latency:        6.26ms                         ║
+║  p99 latency:        undefinedms                         ║
+║  Write RPS:          125.0 req/s                      ║
+╚══════════════════════════════════════════════════════╝
+
+RESUME BULLET:
+  API handles 125.0 concurrent URL creation requests/sec
+  at p95=6.26ms write latency (k6 load test, 20 VUs)

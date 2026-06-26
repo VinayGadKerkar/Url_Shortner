@@ -1,4 +1,4 @@
-# Snip — URL Shortener
+# GoURL — URL Shortener
 
 A production-grade URL shortener built with Go, React, PostgreSQL, Redis, and Kafka. Started as a single `main.go` with an in-memory map — evolved into a full-stack application with clean architecture, async analytics, and a complete Docker setup.
 
